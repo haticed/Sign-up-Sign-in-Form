@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba (0,0,0,0.4), rgba (0,0,0,0.4)), url(ari.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* work we've done in class
+body{
+    margin: 0;
+    
+}
+header{
+    height: 60px;
+    background-color: chartreuse;
+    padding: 20px;
+    position: relative;
+}
+​
+.form-signIn{
+    background-color: coral;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: absolute;
+    right: 30px;
+    display: none;
+    
+}
+.lbl{
+    padding: 10px;
+    background-color: rgb(139, 102, 0);
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    border-radius: 10px;
+    
+}
+.lbl:hover{
+    cursor: pointer;
+}
+.chk{
+    display: none;
+}
+.chk:checked +.form-signIn{
+    display: block;
+}*/
