@@ -11,19 +11,46 @@
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
-                <button type ="button" class= "toggle-btn">Sign-in</button>
-                <button type ="button" class= "toggle-btn">Sign-up</button>
-            </div>
-        </div>
-        <div class="social-icons">
-            <ul>
+                <button type ="button" class= "toggle-btn" onclick="signin()">Sign-in</button>
+                <button type ="button" class= "toggle-btn"onclick="signup()">Sign-up</button>
+            </div> <div class="social-icons">
+             <ul>
                 <li><a href="https://www.linkedin.com/feed/" > <i class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://twitter.com/home?lang=tr" target="-blank" ><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://github.com/haticed" target="-blank" ><i class="fab fa-github"></i></a></li>
              </ul>
+            </div>
+                <form id="sign-in" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="chech-box"> <span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Sign-in</button>
+                </form>
+                <form id= "sign-up" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="chech-box"> <span>I agree to the term & condition</span>
+                    <button type="submit" class="submit-btn">Sign-up</button>
+                </form>
              </div>
         </div>
-            
+            <script>
+                var x = document.getElementById("sign-in");
+                var y = document.getElementById("sign-up");
+                var z = document.getElementById("btn");
+
+                function signup(){
+                    x.style.left="-400px";
+                    y.style.left="50px";
+                    z.style.left="110px";
+                }
+                function signin(){
+                    x.style.left="50px";
+                    y.style.left="450px";
+                    z.style.left="0";
+                }
+            </script>
         
     </div>
 
