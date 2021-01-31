@@ -1,9 +1,8 @@
-*,body{
+*,html{
     margin: 0;
-    padding: 0;
-    list-style: none;
     font-family: sans-serif;
-    margin-bottom: 0px;
+    list-style: none;
+    padding: 0;
     
 }
 
@@ -11,8 +10,9 @@
     height: 100%;
     width: 100%;
     background-image: url(ari.jpg);
+    background-color: rgb(187, 184, 184);
     background-position: center;
-    background-size: cover;
+    background: size cover;
     position: absolute;
 
 }
@@ -21,7 +21,7 @@
     height: 480px;
     position:relative;
     margin: 280px auto;
-    background-color: #fff;
+    background-color: rgb(206, 200, 200);
     padding: 5px;
     overflow: hidden;
 }
@@ -87,7 +87,7 @@
    border-left: 0px; 
    border-top: 0px;
    border-right: 0px;
-   border-bottom: 1px solid #999;
+   border-bottom: 1px solid black;
    outline: none;
    background: transparent;
 }
@@ -97,7 +97,7 @@
     cursor:pointer;
     display: block;
     margin:auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, rgb(230, 194, 128), rgb(185, 88, 88));
     border:0;
     outline: none;
     border-radius: 30px;
@@ -107,7 +107,7 @@
 
 }
 span{
-    color: #777;
+    color: black;
     font-size: 12px;
     bottom: 68px;
     position: absolute;
