@@ -1,43 +1,51 @@
-*,html{
+html{
+   box-sizing: border-box; 
+    
+}
+*::after,
+*::before{
+    box-sizing: initial;
     margin: 0;
     font-family: sans-serif;
     list-style: none;
     padding: 0;
-    
 }
+
 
 .container{
     height: 100%;
     width: 100%;
-    background-image: url(ari.jpg);
-    background-color: rgb(187, 184, 184);
     background-position: center;
-    background: size cover;
-    position: absolute;
+    background-image: url(ari.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;  
+    position: absolute; 
 
 }
 .form-box {
     width: 380px;
     height: 480px;
     position:relative;
-    margin: 280px auto;
+    margin: 6% auto;
     background-color: rgb(206, 200, 200);
     padding: 5px;
     overflow: hidden;
+    margin-top: 300px;
+    
 }
 .button-box{
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px rgb(223, 223, 186);
+    box-shadow: 0px 0px 20px 9px rgb(223, 223, 186);
     border-radius: 30px;
 }
 .toggle-btn{
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
-    border: 0;
+    border: 0px;
     outline: none;
     position: relative;
     
@@ -53,18 +61,28 @@
     transition: .5s;
 }
 .social-icons{
-    margin: 0px;
+    margin: 30px auto;
     grid: 150px/auto auto auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.social-icons>ul{
+.social-icons img{
+    
     display: flex;
-    margin: 10px;
+    margin: 0px 15px;
+    box-shadow: 0 0 0 10px rgb(223, 223, 186);
+    color: rgb(252, 247, 247);
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    background: #f8f2f2;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
 }
-.social-icons>ul>li{
+/*.social-icons{
     
     color: rgb(252, 247, 247);
     font-size: 30px;
@@ -74,7 +92,7 @@
     line-height: 60px;
     border-radius: 50%;
     margin: 0 10px;
-}
+}*/
 .input-group{
     top:180px;
     position:absolute;
